@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyter = "*"
+python-dotenv = "*"
+langchain = "==0.2.10"
+langchain-community = "==0.2.9"
+langchain-core = "==0.2.22"
+langchain-experimental = "==0.0.62"
+langchain-openai = "==0.1.17"
+langchain-text-splitters = "==0.2.2"
+fitz = "*"
+rank-bm25 = "*"
+pymupdf = "*"
+deepeval = "*"
+pypdf = "*"
+faiss-cpu = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
+python_full_version = "3.12.4"
